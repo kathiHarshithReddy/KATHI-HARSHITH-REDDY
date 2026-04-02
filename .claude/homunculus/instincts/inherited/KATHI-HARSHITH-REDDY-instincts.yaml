@@ -1,0 +1,260 @@
+# Instincts generated from https://github.com/kathiHarshithReddy/KATHI-HARSHITH-REDDY
+# Generated: 2026-04-02T12:27:25.901Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: KATHI-HARSHITH-REDDY-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# KATHI HARSHITH REDDY Commit Length
+
+## Action
+
+Keep commit messages concise (~32 characters)
+
+## Evidence
+
+- Average commit message length: 32 chars
+- Based on 4 commits
+
+---
+id: KATHI-HARSHITH-REDDY-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# KATHI HARSHITH REDDY Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: KATHI-HARSHITH-REDDY-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# KATHI HARSHITH REDDY Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: KATHI-HARSHITH-REDDY-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# KATHI HARSHITH REDDY Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: KATHI-HARSHITH-REDDY-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# KATHI HARSHITH REDDY Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: kathi-harshith-reddy-instinct-file-naming-camelcase
+trigger: "When creating or renaming a JavaScript file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# Kathi Harshith Reddy Instinct File Naming Camelcase
+
+## Action
+
+Name the file using camelCase
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.files
+
+---
+id: kathi-harshith-reddy-instinct-function-naming-camelcase
+trigger: "When defining a function"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# Kathi Harshith Reddy Instinct Function Naming Camelcase
+
+## Action
+
+Name the function using camelCase
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.functions
+
+---
+id: kathi-harshith-reddy-instinct-class-naming-pascalcase
+trigger: "When defining a class"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# Kathi Harshith Reddy Instinct Class Naming Pascalcase
+
+## Action
+
+Name the class using PascalCase
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.classes
+
+---
+id: kathi-harshith-reddy-instinct-constant-naming-screaming-snake-case
+trigger: "When declaring a constant"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# Kathi Harshith Reddy Instinct Constant Naming Screaming Snake Case
+
+## Action
+
+Use SCREAMING_SNAKE_CASE for the constant name
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.constants
+
+---
+id: kathi-harshith-reddy-instinct-import-style-relative
+trigger: "When importing modules in JavaScript files"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# Kathi Harshith Reddy Instinct Import Style Relative
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- Pattern in codeStyle.importStyle
+
+---
+id: kathi-harshith-reddy-instinct-export-style-named
+trigger: "When exporting functions, classes, or constants"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# Kathi Harshith Reddy Instinct Export Style Named
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in codeStyle.exportStyle
+
+---
+id: kathi-harshith-reddy-instinct-test-location-separate
+trigger: "When adding or organizing test files"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# Kathi Harshith Reddy Instinct Test Location Separate
+
+## Action
+
+Place test files in a separate folder
+
+## Evidence
+
+- Pattern in architecture.folderStructure.testLocation
+
+---
+id: kathi-harshith-reddy-instinct-git-commit-freeform
+trigger: "When writing a git commit message"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: kathiHarshithReddy/KATHI-HARSHITH-REDDY
+---
+
+# Kathi Harshith Reddy Instinct Git Commit Freeform
+
+## Action
+
+Write a freeform, descriptive commit message without a required prefix
+
+## Evidence
+
+- Seen in commit: 'Create professional cybersecurity portfolio website'
+- Seen in commit: 'Update README with personal introduction and goals'
+- Pattern in commits.type
+
