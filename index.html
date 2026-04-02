@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kathi Harshith Reddy – Cybersecurity Learner, Python Developer, SQL & Web Design enthusiast." />
+  <title>Kathi Harshith Reddy | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-bracket">&lt;</span>KHR<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Tech Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <canvas id="matrixCanvas" aria-hidden="true"></canvas>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">[ Cybersecurity Learner ]</p>
+      <h1 class="hero-title">Kathi <span class="accent">Harshith</span> Reddy</h1>
+      <p class="hero-subtitle">
+        Computer Science Student &amp; Aspiring Security Professional
+      </p>
+      <p class="hero-description">
+        Passionate about protecting digital landscapes through Python automation,
+        SQL data management, and modern web development.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-badges">
+        <span class="badge">Python</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Web Design</span>
+        <span class="badge">Cybersecurity</span>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Hello! I'm <strong>Kathi Harshith Reddy</strong>, a Computer Science student
+            on a mission to break into the world of cybersecurity. I believe that understanding
+            how to build things well is the first step to understanding how to defend them.
+          </p>
+          <p>
+            My journey combines hands-on coding with security thinking — from writing Python
+            scripts that automate tasks, to designing databases with SQL, to building clean,
+            responsive web interfaces. Every skill I learn feeds directly into becoming a
+            well-rounded security professional.
+          </p>
+          <p>
+            I'm currently deepening my knowledge in threat analysis, network security concepts,
+            and security tool development, always looking for new challenges and opportunities
+            to grow.
+          </p>
+          <div class="about-links">
+            <a href="https://github.com/kathiharshithreddy" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub Profile</a>
+            <a href="#" class="btn btn-outline btn-sm" id="downloadCVAbout">Download CV</a>
+          </div>
+        </div>
+        <div class="about-card-grid">
+          <div class="info-card">
+            <div class="info-card-icon">🎓</div>
+            <h3>Education</h3>
+            <p>Computer Science Student</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🔒</div>
+            <h3>Focus Area</h3>
+            <p>Cybersecurity &amp; Ethical Hacking</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🐍</div>
+            <h3>Primary Language</h3>
+            <p>Python &amp; JavaScript</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🚀</div>
+            <h3>Goal</h3>
+            <p>Security Engineer / Pen Tester</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills &amp; <span class="accent">Expertise</span></h2>
+      <p class="section-subtitle">Core competencies I've built on my cybersecurity journey</p>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">🐍</div>
+          <h3>Python</h3>
+          <p>Scripting, automation, and security tool development. Building network scanners, log parsers, and automation pipelines.</p>
+          <ul class="skill-list">
+            <li>Scripting &amp; Automation</li>
+            <li>Security Tool Development</li>
+            <li>Data Processing</li>
+            <li>API Integration</li>
+          </ul>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-level="75"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>SQL</h3>
+          <p>Database design, security-focused queries, and identifying SQL injection vulnerabilities. Managing and securing data.</p>
+          <ul class="skill-list">
+            <li>Database Design</li>
+            <li>Query Optimization</li>
+            <li>SQL Injection Prevention</li>
+            <li>Data Security</li>
+          </ul>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-level="70"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>Web Design</h3>
+          <p>Building responsive, accessible, and secure web interfaces using modern HTML5, CSS3, and vanilla JavaScript.</p>
+          <ul class="skill-list">
+            <li>HTML5 / CSS3</li>
+            <li>Responsive Design</li>
+            <li>JavaScript / DOM</li>
+            <li>Web Security Basics</li>
+          </ul>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-level="80"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🔒</div>
+          <h3>Cybersecurity</h3>
+          <p>Learning threat analysis, security concepts, and ethical hacking techniques to understand and defend systems.</p>
+          <ul class="skill-list">
+            <li>Threat Analysis</li>
+            <li>Network Security</li>
+            <li>OWASP Top 10</li>
+            <li>Security Concepts</li>
+          </ul>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-level="65"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      <p class="section-subtitle">Hands-on work demonstrating my skills and cybersecurity learning</p>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python</span>
+            <div class="project-links">
+              <a href="https://github.com/kathiharshithreddy" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">⬡ GitHub</a>
+            </div>
+          </div>
+          <h3>Port Scanner</h3>
+          <p>A lightweight Python-based port scanner that uses socket programming to identify open ports on target systems. Built as a learning tool for network security concepts.</p>
+          <div class="project-stack">
+            <span>Python</span><span>Sockets</span><span>Networking</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">SQL</span>
+            <div class="project-links">
+              <a href="https://github.com/kathiharshithreddy" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">⬡ GitHub</a>
+            </div>
+          </div>
+          <h3>Secure User Database</h3>
+          <p>A database schema designed with security best practices — hashed passwords, parameterized queries to prevent SQL injection, and role-based access control patterns.</p>
+          <div class="project-stack">
+            <span>SQL</span><span>SQLite</span><span>Security</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Web</span>
+            <div class="project-links">
+              <a href="https://github.com/kathiharshithreddy" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">⬡ GitHub</a>
+            </div>
+          </div>
+          <h3>Cybersecurity Portfolio</h3>
+          <p>This very portfolio — a fully responsive, dark-themed website built with vanilla HTML, CSS, and JavaScript. No frameworks, no dependencies, just clean code.</p>
+          <div class="project-stack">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python</span>
+            <div class="project-links">
+              <a href="https://github.com/kathiharshithreddy" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">⬡ GitHub</a>
+            </div>
+          </div>
+          <h3>Password Strength Checker</h3>
+          <p>A Python utility that evaluates password strength against common security criteria — length, entropy, character diversity, and known breach patterns.</p>
+          <div class="project-stack">
+            <span>Python</span><span>Regex</span><span>Security</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python + SQL</span>
+            <div class="project-links">
+              <a href="https://github.com/kathiharshithreddy" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">⬡ GitHub</a>
+            </div>
+          </div>
+          <h3>Log Analyzer</h3>
+          <p>Parses system and server logs with Python, stores them in a SQLite database, and generates reports to identify suspicious activity patterns.</p>
+          <div class="project-stack">
+            <span>Python</span><span>SQL</span><span>Log Analysis</span>
+          </div>
+        </article>
+
+        <article class="project-card project-card--cta">
+          <div class="project-cta-inner">
+            <div class="project-icon">+</div>
+            <h3>More Coming Soon</h3>
+            <p>Actively working on new projects. Follow my GitHub to stay updated.</p>
+            <a href="https://github.com/kathiharshithreddy" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">View GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TECH STACK ===== -->
+  <section class="section stack" id="stack">
+    <div class="container">
+      <h2 class="section-title">Tech <span class="accent">Stack</span></h2>
+      <p class="section-subtitle">Tools and technologies in my arsenal</p>
+      <div class="stack-grid">
+
+        <div class="stack-category">
+          <h3>Languages</h3>
+          <div class="stack-items">
+            <div class="stack-item"><span class="stack-icon">🐍</span>Python</div>
+            <div class="stack-item"><span class="stack-icon">🌐</span>JavaScript</div>
+            <div class="stack-item"><span class="stack-icon">🗄️</span>SQL</div>
+            <div class="stack-item"><span class="stack-icon">📄</span>HTML5</div>
+            <div class="stack-item"><span class="stack-icon">🎨</span>CSS3</div>
+          </div>
+        </div>
+
+        <div class="stack-category">
+          <h3>Security &amp; Networking</h3>
+          <div class="stack-items">
+            <div class="stack-item"><span class="stack-icon">🔒</span>OWASP</div>
+            <div class="stack-item"><span class="stack-icon">🌐</span>Wireshark</div>
+            <div class="stack-item"><span class="stack-icon">🛡️</span>Nmap</div>
+            <div class="stack-item"><span class="stack-icon">🔑</span>Kali Linux</div>
+            <div class="stack-item"><span class="stack-icon">🕵️</span>Burp Suite</div>
+          </div>
+        </div>
+
+        <div class="stack-category">
+          <h3>Databases</h3>
+          <div class="stack-items">
+            <div class="stack-item"><span class="stack-icon">🗃️</span>SQLite</div>
+            <div class="stack-item"><span class="stack-icon">🐬</span>MySQL</div>
+            <div class="stack-item"><span class="stack-icon">🐘</span>PostgreSQL</div>
+          </div>
+        </div>
+
+        <div class="stack-category">
+          <h3>Tools &amp; Platforms</h3>
+          <div class="stack-items">
+            <div class="stack-item"><span class="stack-icon">🐙</span>Git &amp; GitHub</div>
+            <div class="stack-item"><span class="stack-icon">🐧</span>Linux</div>
+            <div class="stack-item"><span class="stack-icon">💻</span>VS Code</div>
+            <div class="stack-item"><span class="stack-icon">📓</span>Jupyter</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get in <span class="accent">Touch</span></h2>
+      <p class="section-subtitle">Have a project, opportunity, or just want to connect?</p>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>I'm open to internships, collaborations, and learning opportunities in cybersecurity, Python development, or web design.</p>
+          <div class="contact-links">
+            <a href="https://github.com/kathiharshithreddy" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <span class="contact-link-icon">🐙</span>
+              <div>
+                <strong>GitHub</strong>
+                <small>github.com/kathiharshithreddy</small>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/kathiharshithreddy" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <span class="contact-link-icon">💼</span>
+              <div>
+                <strong>LinkedIn</strong>
+                <small>linkedin.com/in/kathiharshithreddy</small>
+              </div>
+            </a>
+            <a href="mailto:kathiharshithreddy@gmail.com" class="contact-link">
+              <span class="contact-link-icon">✉️</span>
+              <div>
+                <strong>Email</strong>
+                <small>kathiharshithreddy@gmail.com</small>
+              </div>
+            </a>
+          </div>
+          <a href="#" class="btn btn-primary" id="downloadCV">⬇ Download CV</a>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-logo"><span class="logo-bracket">&lt;</span>KHR<span class="logo-bracket">/&gt;</span></p>
+      <p class="footer-copy">© <span id="year"></span> Kathi Harshith Reddy. Built with HTML, CSS &amp; JavaScript.</p>
+      <div class="footer-links">
+        <a href="https://github.com/kathiharshithreddy" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/kathiharshithreddy" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
